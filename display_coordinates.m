@@ -94,7 +94,5 @@ ylabel("$y$ (m)", "Interpreter","latex");
 zlabel("$z$ (m)", "Interpreter","latex");
 axis equal
 grid on
-
-
-set(gca,'TickLabelInterpreter','latex')
+legend("x", "y", "z", "interpreter", "latex");
 

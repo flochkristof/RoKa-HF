@@ -6,7 +6,7 @@ clc; clear; close all;
 run("params.m");
 
 %% Csuklóváltozó értékek definiálása
-setpoint= [0.1, -0.2, 0.3, -0.1];
+setpoint= [0.5, 0.34, 0.1, 0.05];
 
 
 %% TCP számítás csuklóváltozók alapján
@@ -33,3 +33,4 @@ else
     disp("================================================================")
     disp("Sikertelen a validálás: eltérő pozíció és orientáció ertékek!");
 end
+
