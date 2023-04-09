@@ -12,3 +12,5 @@ Tsim=5;
 
 %% Szimuláció
 res=sim('robot_move.slx','StartTime','0','StopTime',num2str(Tsim));
+
+%% TPC pozació megjelenítése
