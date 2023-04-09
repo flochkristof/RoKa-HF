@@ -6,7 +6,7 @@ clc; clear; close all;
 run("params.m");
 
 %% Csuklóváltozó értékek definiálása
-setpoint= [0.5, 0.34, 0.1, 0.05];
+setpoint= [1.9, -0.2, 0.45, -0.09];
 
 
 %% TCP számítás csuklóváltozók alapján

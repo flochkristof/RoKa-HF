@@ -27,7 +27,5 @@ grid on
 xlabel("$x$ (m)", "Interpreter","latex");
 ylabel("$y$ (m)", "Interpreter","latex");
 zlabel("$z$ (m)", "Interpreter","latex");
-axis equal
-
-
-set(gca,'TickLabelInterpreter','latex')
+set(gca,'FontSize', 14)
+set(gca,'TickLabelInterpreter','latex');
