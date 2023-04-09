@@ -1,7 +1,7 @@
 %% Robotkarok és mobilis robotok HF
 % Floch Kristóf I8SNRG
 
-clc; clear; close all;
+clc; clear;
 %% Paraméterek és konfiguráció betöltése
 run("params.m");
 
